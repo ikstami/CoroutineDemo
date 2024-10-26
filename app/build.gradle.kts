@@ -7,6 +7,9 @@ android {
     namespace = "com.hfad.coroutinedemo"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.hfad.coroutinedemo"
         minSdk = 28
